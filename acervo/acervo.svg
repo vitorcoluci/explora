@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Camada_1"
+   data-name="Camada 1"
+   viewBox="0 0 80.00781 80.00535"
+   version="1.1"
+   sodipodi:docname="acervo.svg"
+   width="80.007812"
+   height="80.005348"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="4.2273982"
+     inkscape:cx="82.201861"
+     inkscape:cy="119.22227"
+     inkscape:window-width="2240"
+     inkscape:window-height="1118"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Camada_1" />
+  <defs
+     id="defs11">
+    <style
+       id="style9">.cls-1,.cls-2,.cls-3{fill:none;stroke-miterlimit:10;stroke-width:6px;}.cls-1{stroke:#3a3636;}.cls-2{stroke:#444;}.cls-3{stroke:#231f20;}</style>
+  </defs>
+  <title
+     id="title13">microsc</title>
+  <g
+     id="g109"
+     transform="matrix(0.43958819,0,0,0.38738643,0.02034561,0.00617446)">
+    <path
+       class="cls-1"
+       d="m 4.65,203.51 h 174.31 v -32.9 l -24.59,2.2 c 0,0 -9.72,2.52 -6.76,-2.23 2.14,-3.42 7.93,-6.27 10.39,-16.16 2.37,-9.61 2.4,-23.43 2.37,-25.66 -0.32,-30.21 -26.28,-40.24 -26.28,-40.24 l -3,-18 c -3.08,-4.629999 -5.94,-8.700001 -15.6,-14.7 0,0 9.33,-22.940001 10.32,-28.000001 C 126.8,22.76 127.13,21.04 124.49,15.96 122.49,12.16 97.359999,6.0900002 84.750001,3.2600002 A 11.63,11.63 0 0 0 72.149999,8.8100001 C 58.69,31.81 31.490001,102.56 31.490001,106.89 c 0,5.09 -1.650001,9.16 -0.330001,12.21 1.320001,3.05 35,17.3 35,17.3 0,0 9.23,1.69 12.86,0.33 3.629999,-1.36 13.530001,-22.71 13.530001,-22.71 a 35.859999,35.859999 0 0 0 7.919999,0.33 c 4,-0.33 15.83,-6.78 15.83,-6.78 0,0 19.36,11.08 17.05,28.71 -1.71,13 -5.06,17.41 -12.55,27.47 -1.26,1.69 -21.540001,15.94 -21.540001,15.94 -13.52,3.45 -64.4,5.66 -81.189999,7.6 a 11.43,11.43 0 0 0 -8.9999999,6.68 z"
+       id="path15" />
+    <path
+       class="cls-2"
+       d="m 363.83,489.92 24.88,11.79 a 5.93,5.93 0 0 0 4.86,0.16 c 3.84,-1.62 4.73,-6.16 4,-6.77 -1.14,-0.9 -27.25,-14.89 -31.41,-15.32 -2.29,-0.24 -3.14,5.45 -3.41,8.16 a 2,2 0 0 0 1.08,1.98 z"
+       transform="translate(-337.41,-348.19)"
+       id="path17" />
+    <ellipse
+       class="cls-3"
+       cx="100.28"
+       cy="83.459999"
+       rx="15.01"
+       ry="12.89"
+       id="ellipse19" />
+  </g>
+  <metadata
+     id="metadata104">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>microsc</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

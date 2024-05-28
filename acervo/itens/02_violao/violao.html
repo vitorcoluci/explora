@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>\(\vec{E}\hspace{-1mm}\times\hspace{-1mm}\vec{p}\mathcal{L}0\mathbb{R}a\) - Violão e ondas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title"><span class="math inline">\(\vec{E}\hspace{-1mm}\times\hspace{-1mm}\vec{p}\mathcal{L}0\mathbb{R}a\)</span></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../equipe/equipe.html"> 
+<span class="menu-text">Equipe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../acervo/acervo.html"> 
+<span class="menu-text">Acervo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../atividades/atividades.html"> 
+<span class="menu-text">Atividades</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../sobre/sobre.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../localizacao/localizacao.html"> 
+<span class="menu-text">Como chegar</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <a href="https://www.instagram.com/exploraft/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Violão e ondas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="centerText">
+<p><img src="violao.jpeg" class="img-fluid" style="width:25.0%"></p>
+</div>
+<p><strong>Uma Mulher Chamada Guitarra</strong></p>
+<p>Um dia, casualmente, eu disse a um amigo que a guitarra, ou violão, era “a música em forma de mulher”. A frase o encantou e ele a andou espalhando como se ela constituísse o que os franceses chamam un mot d’esprit. Pesa-me ponderar que ela não quer ser nada disso; é, melhor, a pura verdade dos fatos.</p>
+<p>O violão é não só a música (com todas as suas possibilidades orquestrais latentes) em forma de mulher, como, de todos os instrumentos musicais que se inspiram na forma feminina - viola, violino, bandolim, violoncelo, contrabaixo - o único que representa a mulher ideal: nem grande, nem pequena; de pescoço alongado, ombros redondos e suaves, cintura fina e ancas plenas; cultivada mas sem jactância; relutante em exibir-se, a não ser pela mão daquele a quem ama; atenta e obediente ao seu amado, mas sem perda de caráter e dignidade; e, na intimidade, terna, sábia e apaixonada. Há mulheres-violino, mulheres-violoncelo e até mulheres-contrabaixo.</p>
+<p>Mas como recusam-se a estabelecer aquela íntima relação que o violão oferece; como negam-se a se deixar cantar preferindo tornar-se objeto de solos ou partes orquestrais; como respondem mal ao contato dos dedos para se deixar vibrar, em benefício de agentes excitantes como arcos e palhetas, serão sempre preteridas, no final, pelas mulheres-violão, que um homem pode, sempre que quer, ter carinhosamente em seus braços e com ela passar horas de maravilhoso isolamento, sem necessidade, seja de tê-la em posições pouco cristãs, como acontece com os violoncelos, seja de estar obrigatoriamente de pé diante delas, como se dá com os contrabaixos.</p>
+<p>Mesmo uma mulher-bandolim (vale dizer: um bandolim), se não encontrar um Jacob pela frente, está roubada. Sua voz é por demais estrídula para que se a suporte além de meia hora. E é nisso que a guitarra, ou violão (vale dizer: a mulher-violão), leva todas as vantagens. Nas mãos de um Segovia, de um Barrios, de um Sanz de la Mazza, de um Bonfá, de um Baden Powell, pode brilhar tão bem em sociedade quanto um violino nas mãos de um Oistrakh ou um violoncelo nas mãos de um Casals. Enquanto que aqueles instrumentos dificilmente poderão atingir a pungência ou a bossa peculiares que um violão pode ter, quer tocado canhestramente por um Jayme Ovalle ou um Manuel Bandeira, quer “passado na cara” por um João Gilberto ou mesmo o crioulo Zé-com-Fome, da Favela do Esqueleto.</p>
+<p>Divino, delicioso instrumento que se casa tão bem com o amor e tudo o que, nos instantes mais belos da natureza, induz ao maravilhoso abandono! E não é à toa que um dos seus mais antigos ascendentes se chama viola d’amore, como a prenunciar o doce fenômeno de tantos corações diariamente feridos pelo melodioso acento de suas cordas… Até na maneira de ser tocado - contra o peito - lembra a mulher que se aninha nos braços do seu amado e, sem dizer-lhe nada, parece suplicar com beijos e carinhos que ele a tome toda, faça-a vibrar no mais fundo de si mesma, e a ame acima de tudo, pois do contrário ela não poderá ser nunca totalmente sua.</p>
+<p>Ponha-se num céu alto uma Lua tranqüila. Pede ela um contrabaixo? Nunca! Um violoncelo? Talvez, mas só se por trás dele houvesse um Casals. Um bandolim? Nem por sombra! Um bandolim, com seu tremolos, lhe perturbaria o luminoso êxtase. E o que pede então (direis) uma Lua tranqüila num céu alto? E eu vos responderei: um violão. Pois dentre os instrumentos musicais criados pela mão do homem, só o violão é capaz de ouvir e de entender a Lua.</p>
+<p>Texto de <em>Vinícius de Moraes</em> (1913-1980)</p>
+<hr>
+<p>Além da capacidade “de ouvir e de ententer a Lua”, o violão é um instrumento musical que exibe muitos fenômenos ondulatórios.</p>
+<p>No violão, temos a situação física da geração e propagação de ondas em cordas. Explore este fenômeno na animação a seguir, alternando entre as opções “Manual”, “Oscilador’’&nbsp;e”Pulso”&nbsp; mostradas canto superior esquerdo.</p>
+<div class="centerText">
+<iframe width="400" height="400" src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_pt_BR.html"></iframe>
+</div>
+<p>Vamos ver aqui como podemos descrever matematicamente o movimento ondulatório numa corda.</p>
+<p>Considere uma corda cuja extremidade da direita está fixa enquanto a outra extremidade é colocada a oscilar de cima para baixo num movimento harmônico simples de frequência angular <span class="math inline">\(\omega=2\pi f\)</span>.&nbsp;</p>
+<p>A onda produzida na extremidade esquerda que se propaga da esquerda para a direita é descrita por <span class="math inline">\(y_{\rightarrow}(x,t)=A\cos(kx+\omega t)\)</span>. Ao chegar a extremidade direita, a onda é refletida e é representada por <span class="math inline">\(y_{\leftarrow}(x,t)=-A\cos(kx-\omega t)\)</span>. O sinal negativo é porque a onda é invertida ao se refletir na extremidade fixa. Você pode verificar esse fenômeno na animação acima,&nbsp; selecionando a opção “Manual” e movimentando a extremidade da esquerda para ver o que acontece com onda ao se refletir na outra extremidade.</p>
+<p>A onda resultante será a superposição dessas duas ondas progressivas <span class="math inline">\(y_{\rightarrow}(x,t)\)</span> e <span class="math inline">\(y_{\leftarrow}(x,t)\)</span>, ou seja, <span class="math inline">\(y(x,t)=y_{\rightarrow}(x,t)+y_{\leftarrow}(x,t)\)</span>. O resultado disso leva a <span class="math inline">\(y(x,t)=(2A\sin kx)\sin\omega t\)</span>.</p>
+<p>O termo <span class="math inline">\(2A\sin kx\)</span>&nbsp;mostra que, em cada instante, a forma da onda é uma senóide, com uma amplitude que depende da posição <span class="math inline">\(x\)</span>. Para cada posição, no entanto, a parte da corda oscila para cima e para baixo com frequência $omega$, de acordo com o termo <span class="math inline">\(\sin\omega t\)</span>.&nbsp; Pelo termo <span class="math inline">\(2A\sin kx\)</span>, vemos que, para algumas posições, a amplitude da onda será nula. Isso ocorre quando <span class="math inline">\(\sin kx=0\)</span>, ou seja, nos casos onde <span class="math inline">\(kx=0,\pi,2\pi,3\pi,\ldots\)</span>. Como <span class="math inline">\(k=2\pi/\lambda\)</span>, onde <span class="math inline">\(\lambda\)</span> é o comprimento de onda, então essas posições serão:</p>
+<p><span class="math display">\[\displaystyle x=0,\frac{\lambda}{2},\frac{2\lambda}{2}, \frac{3\lambda}{2},\ldots\]</span></p>
+<p>Essas posições de amplitude nula (que não oscilam) são chamadas de nós. Na posição que correponde a metade da distância entre dois nós consecutivos, a amplitude é máxima e isso corresponde ao que se chama de ventre.&nbsp;Essa configuração de localização de nós e ventres que se forma ao longo da corda é fixa, estacionária, e é produzida quando se põe corda a vibrar em determinadas frequências. Por isso, a onda resultante <span class="math inline">\(y(x,t)\)</span> corresponde a uma <em>onda estacionária</em>.</p>
+<p>O vídeo a seguir mostrar o aparecimento de nós e ventres ao se oscilar uma corda nas frequências certas.</p>
+<div class="centerText">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/tRb1GIhvwUk" width="300" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+<hr>
+<p>As frequências de vibração que produzem as ondas estacionárias são chamadas de frequências de ressonância ou harmônicos. Existem infinitas frequências de ressonância.&nbsp; São nessas frequências que há uma sincronia entre a onda incidente e a refletida, levando a formação da onda estacionária. Nessas frequências, a corda vibra no que chamamos de modos normais de vibração. Modos normais correpondem a um movimento no qual todas as partículas do sistema se movem senoidalmente com a mesma frequência. Para cada frequência de ressonância existe um modo normal, uma configuração de nós e ventres.</p>
+<p>Considere agora que as duas extremidades da corda estão fixas e suponha que vibramos a corda de comprimento <span class="math inline">\(L\)</span> numa frequência de ressonância, aquela que se forma uma onda estacionária. A distância entre dois nós consecutivos (ou dois ventres) é <span class="math inline">\(\lambda/2\)</span> de modo que o comprimento da corda deve ser igual <span class="math inline">\(\lambda/2\)</span>, <span class="math inline">\(2\lambda/2\)</span>, e assim por diante. Ou seja, <span class="math inline">\(L=n\lambda/2\)</span>, <span class="math inline">\(n=1,2,3,\ldots\)</span>. Assim, uma corda de comprimento <span class="math inline">\(L\)</span> com as duas extremidades fixas, uma onda estacionária só poderá existir quando seu comprimento de onda satisfizer <span class="math inline">\(L=n\lambda/2\)</span>, ou seja,</p>
+<p><span class="math display">\[\displaystyle \lambda_n=\frac{2L}{n} \;\;\;\;(n=1,2,3,\ldots).\]</span></p>
+<p>As frequências associadas aos comprimentos de onda da equação acima são <span class="math inline">\(f_n=v/\lambda_n\)</span> onde <span class="math inline">\(v\)</span> é a velocidade da onda se propagando na corda. A menor frequência, <span class="math inline">\(n=1\)</span>, também é chamado de menor harmônico ou frequência fundamental é</p>
+<p><span class="math display">\[\displaystyle f_1=\frac{v}{2L}.\]</span></p>
+<p>De forma geral, todas as frequências podem ser expressas em termos da frequência fundamental como</p>
+<p><span class="math display">\[\displaystyle f_n=n\frac{v}{2L}=nf_1 \;\;\;\;(n=1,2,3,\ldots).\]</span></p>
+<p>No modo normal correspondente ao primeiro harmônico (<span class="math inline">\(n=1\)</span>) temos apenas um ventre. No modo normal correspondente ao segundo &nbsp;harmônico (<span class="math inline">\(n=2\)</span>) temos dois ventres e assim por diante.</p>
+<p>Para uma corda, a velocidade da onda que se propaga ao longo da corda é <span class="math inline">\(v=\sqrt{F/ \mu}\)</span> onde <span class="math inline">\(F\)</span> é a força que está sendo aplicada na corda e <span class="math inline">\(\mu\)</span> é a densidade linear da corda (igual a massa da corda dividida pelo seu comprimento). Dessa forma, a Eq. (4) fica</p>
+<p><span class="math display">\[\displaystyle f_n=n\frac{1}{2L}\sqrt{\frac{F}{\mu}} \;\;\;\;(n=1,2,3,\ldots),\]</span></p>
+<p>ou ainda,</p>
+<p><span class="math display">\[\displaystyle f_n^2=\left(\frac{F}{4L^2\mu}\right)n^2.\]</span></p>
+<p>Mantendo a tensão <span class="math inline">\(F\)</span> aplicada na corda e o comprimento da corda <span class="math inline">\(L\)</span>&nbsp;fixos, podemos usar a equação acima para determinar a densidade linear da corda e comprovar o fenônemo de onda estacionária na corda. Isso pode ser feito variando-se a frequência de vibração para procurar os modos normais de vibração <span class="math inline">\(n=1,2,3,...\)</span> para determinar a frequência correspondente <span class="math inline">\(f\)</span>. O valor de <span class="math inline">\(\mu\)</span> pode ser obtido por um ajuste linear num gráfico <span class="math inline">\(f_n^2\times n^2\)</span>. Ao se comparar o valor de <span class="math inline">\(\mu\)</span> obtido com o determinado experimentalmente pesando a corda e dividindo a massa pelo comprimento da corda.</p>
+<p>No <span class="math inline">\(\vec{E}\hspace{-1mm}\times\hspace{-1mm}\vec{p}\mathcal{L}0\mathbb{R}a\)</span> temos montagens que permitem fazer esse experimento!</p>
+<p>No caso do violão, ao se tocar uma corda, gera-se uma onda na corda cuja amplitude vai diminuindo com o tempo. Ao contrário do formato da função seno, que representa a amplitude em função do tempo para o caso onde um único harmônico ou modo normal está presente na corda, a curva da amplitude terá a forma que indica a presença de vários harmônicos. Esses vários harmônicos são obtidos a partir da transformada de Fourier da amplitude e dispostos no que chamamos de espectro de frequências. Esse processo foi realizado por E.M. Santos, C. Molina e A.P.B. Tufaile no trabalho <a href="https://www.scielo.br/j/rbef/a/9gXDFQkMNF4CrhnjgtMJ76r/?format=pdf&amp;lang=pt">“Violão e guitarra como ferramentas para o ensino de física”</a> (2013).</p>
+<div class="centerText">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/5ICHZjnxgTs" width="300" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+<p><strong>Para os curiosos</strong></p>
+<p>Modos normais de vibração aparecem em um muuiitttoos fenômenos. Por exemplo, veja como as ondas estacionárias aparecem na <a href="https://www.youtube.com/watch?v=NpEevfOU4Z8">água</a>,&nbsp;no <a href="https://www.youtube.com/watch?v=qUiB_zd9M0k">ar</a>, em <a href="https://www.youtube.com/watch?v=jz8IIk_bps0">instrumentos musicais</a>&nbsp;e no <a href="https://iopscience.iop.org/article/10.1088/0031-9120/39/1/006">forno de micro-ondas</a>.&nbsp; Ondas estacionárias também são usadas para explicar o <a href="https://www.youtube.com/watch?v=kpa_HO6yy18">comportamento do elétron dentro dos átomos</a>.</p>
+<p>Para quem quiser saber um pouco mais sobre a física ondulatória no violão, podem ver o trabalho <a href="https://www.scielo.br/j/rbef/a/HF9kfDJmYRKbwPPVKv8dfPw/?format=pdf&amp;lang=pt">“A guitarra como um instrumento para o ensino de física ondulatória”</a> (2015) de &nbsp;B. L. Lago e <a href="https://www.scielo.br/j/rbef/a/Ly7ytW6YdRBkNwSjdycMyBS/?lang=pt">“As frequências naturais de uma corda de instrumento musical a partir de seus parâmetros geométricos e físicos”</a> (2014) de F. Catelli e G.A. Mussato.</p>
+<p>Se interessou pelo espectro de frequências e pela transformada de Fourier ? Acesse essa <a href="https://phet.colorado.edu/sims/cheerpj/fourier/latest/fourier.html?simulation=fourier&amp;locale=pt">animação</a>&nbsp;(demora um pouco para carregar) e altere a quantidades de harmônicos para ver qual o formato da amplitude resultante.</p>
+<p>Vamos esquecer agora um pouco da Física e ver e ouvir o violão em ação na apresentação do Barcelona Guitar Trio !</p>
+<div class="centerText">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/xsTNn_oyToM" width="400" height="400" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.explora\.ft\.unicamp\.br");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><span class="math inline">\(\vec{E}\hspace{-1mm}\times\hspace{-1mm}\vec{p}\mathcal{L}0\mathbb{R}a\)</span> - FT/UNICAMP/Limeira</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

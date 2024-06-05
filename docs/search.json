@@ -252,37 +252,65 @@
     "text": "A Física Moderna é crucial nos vestibulares por abordar conceitos fundamentais como a teoria da relatividade e a mecânica quântica, essenciais para entender fenômenos contemporâneos e tecnologias avançadas. Ela amplia a compreensão dos estudantes sobre a natureza do universo e os prepara para carreiras científicas e tecnológicas."
   },
   {
-    "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_diego_geometria.html",
-    "href": "cursos/01_fisica_moderna/cronograma/aulas/aula_diego_geometria.html",
-    "title": "O mundo da geometria",
+    "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_yuri_luz.html",
+    "href": "cursos/01_fisica_moderna/cronograma/aulas/aula_yuri_luz.html",
+    "title": "Luz Onda e Luz Partícula",
     "section": "",
-    "text": "Noção de espaço e o espaço tridimensional. O conceito de dimensão na física e na matemática. Aspectos históricos da geometria e suas implicações em física, de Euclides a Mandelbrot. Dimensão fractal. Atividade prática sobre a determinação da dimensão de um conjunto de bolas de papel amassado. Breves comentários sobre a relação entre geometria e física moderna."
+    "text": "A luz é uma onda ou partícula? E se ela fosse os dois? A teoria da luz como onda, defendida por Huygens e confirmada por Young e Maxwell, explica fenômenos como interferência e difração. A teoria da luz como partícula, proposta por Einstein através do efeito fotoelétrico, descreve a luz como fótons, partículas discretas de energia, integrando a dualidade onda-partícula."
   },
   {
-    "objectID": "cursos/01_fisica_moderna/cronograma/cronograma.html",
-    "href": "cursos/01_fisica_moderna/cronograma/cronograma.html",
-    "title": "Cronograma",
+    "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_varese.html",
+    "href": "cursos/01_fisica_moderna/cronograma/aulas/aula_varese.html",
+    "title": "O mundo do muito, muito, muito pequeno",
     "section": "",
-    "text": "Conteúdo: Resumo da Física Clássica; O mundo do discreto; Equação de Planck; O mundo do muito pequeno; Átomo de Bohr; O mundo do muito, muito pequeno; Partículas Elementares; Efeito Fotoelétrico; Ondas de Matéria; Equação de Schrödinger; Dos átomos aos sólidos; Semicondutores; Supercondutores; Computação Quântica; Física Moderna e Geometria; O mundo do muito rápido e do muito pesado; Relatividade.\n\n\n\nAula\nDia\nTítulo\nInstrutor\n\n\n\n\n1\n15/Agosto (19h-21h)\nApresentação/ Resumo Física Clássica\nYuri/Vitor\n\n\n2\n17/Agosto (8h-12h)\nO mundo do discreto/Exercícios de vestibulares\nYuri\n\n\n3\n22/Agosto (19h-21h)\nO mundo do infinitesimalmente pequeno\nDiego\n\n\n4\n24/Agosto (8h-12h)\nO mundo do muito pequeno/Exercícios de vestibulares\nYuri\n\n\n5\n29/Agosto (19h-21h)\nO mundo do muito, muito, muito pequeno\nVarese\n\n\n6\n31/Agosto (8h-12h)\nLuz Onda e Luz Partícula\nYuri/Ivan\n\n\n7\n5/Setembro (19h-21h)\nOndas de matéria\nDegani\n\n\n8\n12/Setembro (19h-21h)\nÁtomos e Moléculas\nLuis Ávila\n\n\n9\n19/Setembro (19h-21h)\nDos átomos aos sólidos\nAna\n\n\n10\n26/Setembro (19h-21h)\nFísica quântica do dia-a-dia\nMaialle\n\n\n11\n28/Setembro (8h-12h)\nExercícios de vestibulares\nYuri\n\n\n12\n3/Outubro (19h-21h)\nO mundo da geometria\nDiego\n\n\n13\n10/Outubro (19h-21h)\nO mundo do muito rápido\nVitor\n\n\n14\n17/Outubro (19h-21h)\nO mundo do muito pesado\nVitor\n\n\n15\n24/Outubro (19h-21h)\nEncerramento"
+    "text": "Nessa aula vamos tentar entender do que são feitas as coisas e quais os principais processos responsáveis pelo universo ser como é."
   },
   {
-    "objectID": "cursos/01_fisica_moderna/professores/professores.html",
-    "href": "cursos/01_fisica_moderna/professores/professores.html",
-    "title": "Professores",
+    "objectID": "cursos/01_fisica_moderna/professores/diego.html",
+    "href": "cursos/01_fisica_moderna/professores/diego.html",
+    "title": "Diego Samuel Rodrigues",
     "section": "",
-    "text": "Profa. Ana Luiza Cardoso Pereira\n\n\nProf. Diego Rodrigues\n\n\nProf. Ivan de Oliveira\n\n\nProf. Luis Fernando de Ávila\n\n\nProf. Marcos Degani\n\n\nProf. Marcelo Maialle\n\n\nProf. Varese Salvador Timóteo\n\n\nProf. Dr. Vitor Rafael Coluci (responsável)\n\n\nProf. Yuri Alexandre Meyer"
+    "text": "Professor universitário de física e de matemática. Formado integralmente pelo ensino público, do ensino fundamental à pós-graduação. Possui interesse e desenvolve pesquisas sobre modelagem matemática aplicada à solução de problemas reais de diversas áreas da ciência e da engenharia. É membro de sociedades científicas do país e do exterior e participa da comunidade internacional https://www.smartphysicslab.org/."
   },
   {
-    "objectID": "cursos/01_fisica_moderna/professores/ivan.html",
-    "href": "cursos/01_fisica_moderna/professores/ivan.html",
-    "title": "Ivan de Oliveira",
+    "objectID": "cursos/01_fisica_moderna/professores/avila.html",
+    "href": "cursos/01_fisica_moderna/professores/avila.html",
+    "title": "Luis Fernando De Ávila",
     "section": "",
     "text": "Tem experiência"
   },
   {
-    "objectID": "cursos/01_fisica_moderna/professores/maialle.html",
-    "href": "cursos/01_fisica_moderna/professores/maialle.html",
-    "title": "Marcelo Zoéga Maialle",
+    "objectID": "cursos/01_fisica_moderna/professores/varese.html",
+    "href": "cursos/01_fisica_moderna/professores/varese.html",
+    "title": "Varese Salvador Timóteo",
+    "section": "",
+    "text": "Físico Nuclear, dedicou boa parte da carreira desenvolvendo modelos para uma das interações fundamentais da natureza: a força nuclear forte."
+  },
+  {
+    "objectID": "cursos/01_fisica_moderna/professores/vitor_coluci.html",
+    "href": "cursos/01_fisica_moderna/professores/vitor_coluci.html",
+    "title": "Vitor Rafael Coluci",
+    "section": "",
+    "text": "Físico de formação (e de coração). Em suas pesquisas, usa a Física computacional para estudar propriedades de materiais. É o coordenador do Laboratório de Simulação e de Computação de Alto Desempenho e\ndo espaço de Ensino e Aprendizagem \\(\\vec{E}\\hspace{-1.1mm}\\times\\hspace{-1.1mm}\\vec{p}\\mathcal{L}0\\mathbb{R}a\\). Participa também do projeto de divulgação científica ObseRVe."
+  },
+  {
+    "objectID": "cursos/01_fisica_moderna/professores/yuri.html",
+    "href": "cursos/01_fisica_moderna/professores/yuri.html",
+    "title": "Yuri Alexandre Meyer",
+    "section": "",
+    "text": "Entusiasta da Física Aplicada às artes - pinta telas com conceitos de Física Quântica e estuda violino desde criança. Possui formação (graduação, mestrado, doutorado e pós-doutorado) pela UNICAMP, e atualmente é professor no curso de Engenharia de Transportes da FT/UNICAMP, campus de Limeira. A abordagem das aulas é sempre interdisciplinar, destacando as aplicações dos conceitos no cotidiano das pessoas. Ganhou o Troféu Fumagalli de 2020 - como professor destaque, e possui uma HQ intitulada de “Liga das Mulheres Cientistas” - finalista do HQ MIX - considerado como o Oscar dos Quadrinhos. Também possui projetos como “Eram as Bruxas Cientistas não Compreendidas?” e Embaixadoras das Ciências,além de projetos de Iniciação Científica para alunos do Ensino Médio."
+  },
+  {
+    "objectID": "cursos/cursos.html",
+    "href": "cursos/cursos.html",
+    "title": "Cursos",
+    "section": "",
+    "text": "Física Moderna: história, aplicações e vestibular Período de inscrições: 10/06/2024 até 01/08/2024."
+  },
+  {
+    "objectID": "cursos/01_fisica_moderna/professores/degani.html",
+    "href": "cursos/01_fisica_moderna/professores/degani.html",
+    "title": "Marcos Degani",
     "section": "",
     "text": "Tem experiência"
   },
@@ -294,67 +322,46 @@
     "text": "Tem experiência"
   },
   {
-    "objectID": "cursos/01_fisica_moderna/professores/degani.html",
-    "href": "cursos/01_fisica_moderna/professores/degani.html",
-    "title": "Marcos Degani",
+    "objectID": "cursos/01_fisica_moderna/professores/maialle.html",
+    "href": "cursos/01_fisica_moderna/professores/maialle.html",
+    "title": "Marcelo Zoéga Maialle",
+    "section": "",
+    "text": "É formado em Física, possuindo mestrado e doutorado na área. Ele é especialista em física de dispositivos semicondutores e tem vasta experiência no ensino de níveis básico e superior. Atualmente, atua como professor na Faculdade de Ciências Aplicadas da UNICAMP."
+  },
+  {
+    "objectID": "cursos/01_fisica_moderna/professores/ivan.html",
+    "href": "cursos/01_fisica_moderna/professores/ivan.html",
+    "title": "Ivan de Oliveira",
     "section": "",
     "text": "Tem experiência"
   },
   {
-    "objectID": "cursos/cursos.html",
-    "href": "cursos/cursos.html",
-    "title": "Cursos",
+    "objectID": "cursos/01_fisica_moderna/professores/professores.html",
+    "href": "cursos/01_fisica_moderna/professores/professores.html",
+    "title": "Professores",
     "section": "",
-    "text": "Física Moderna: história, aplicações e vestibular Período de inscrições: 10/06/2024 até 01/08/2024."
+    "text": "Ana Luiza Cardoso Pereira\n\n\nDiego Rodrigues\n\n\nIvan de Oliveira\n\n\nLuis Fernando de Ávila\n\n\nMarcos Degani\n\n\nMarcelo Maialle\n\n\nVarese Salvador Timóteo\n\n\nVitor Rafael Coluci (responsável)\n\n\nYuri Alexandre Meyer"
   },
   {
-    "objectID": "cursos/01_fisica_moderna/professores/yuri.html",
-    "href": "cursos/01_fisica_moderna/professores/yuri.html",
-    "title": "Yuri Alexandre Meyer",
+    "objectID": "cursos/01_fisica_moderna/cronograma/cronograma.html",
+    "href": "cursos/01_fisica_moderna/cronograma/cronograma.html",
+    "title": "Cronograma",
     "section": "",
-    "text": "Entusiasta da Física Aplicada às artes - pinta telas com conceitos de Física Quântica e estuda violino desde criança. Possui formação (graduação, mestrado, doutorado e pós-doutorado) pela UNICAMP, e atualmente é professor no curso de Engenharia de Transportes da FT/UNICAMP, campus de Limeira. A abordagem das aulas é sempre interdisciplinar, destacando as aplicações dos conceitos no cotidiano das pessoas. Ganhou o Troféu Fumagalli de 2020 - como professor destaque, e possui uma HQ intitulada de “Liga das Mulheres Cientistas” - finalista do HQ MIX - considerado como o Oscar dos Quadrinhos. Também possui projetos como “Eram as Bruxas Cientistas não Compreendidas?” e Embaixadoras das Ciências,além de projetos de Iniciação Científica para alunos do Ensino Médio."
+    "text": "Conteúdo: Resumo da Física Clássica; O mundo do discreto; Equação de Planck; O mundo do muito pequeno; Átomo de Bohr; O mundo do muito, muito pequeno; Partículas Elementares; Efeito Fotoelétrico; Ondas de Matéria; Equação de Schrödinger; Dos átomos aos sólidos; Semicondutores; Supercondutores; Computação Quântica; Física Moderna e Geometria; O mundo do muito rápido e do muito pesado; Relatividade.\n\n\n\nAula\nDia\nTítulo\nInstrutor\n\n\n\n\n1\n15/Agosto (19h-21h)\nApresentação/ Resumo Física Clássica\nYuri/Vitor\n\n\n2\n17/Agosto (8h-12h)\nO mundo do discreto/Exercícios de vestibulares\nYuri\n\n\n3\n22/Agosto (19h-21h)\nO mundo do infinitesimalmente pequeno\nDiego\n\n\n4\n24/Agosto (8h-12h)\nO mundo do muito pequeno/Exercícios de vestibulares\nYuri\n\n\n5\n29/Agosto (19h-21h)\nO mundo do muito, muito, muito pequeno\nVarese\n\n\n6\n31/Agosto (8h-12h)\nLuz Onda e Luz Partícula\nYuri/Ivan\n\n\n7\n5/Setembro (19h-21h)\nOndas de matéria\nDegani\n\n\n8\n12/Setembro (19h-21h)\nÁtomos e Moléculas\nLuis Ávila\n\n\n9\n19/Setembro (19h-21h)\nDos átomos aos sólidos\nAna\n\n\n10\n26/Setembro (19h-21h)\nFísica quântica do dia-a-dia\nMaialle\n\n\n11\n28/Setembro (8h-12h)\nExercícios de vestibulares\nYuri\n\n\n12\n3/Outubro (19h-21h)\nO mundo da geometria\nDiego\n\n\n13\n10/Outubro (19h-21h)\nO mundo do muito rápido\nVitor\n\n\n14\n17/Outubro (19h-21h)\nO mundo do muito pesado\nVitor\n\n\n15\n24/Outubro (19h-21h)\nEncerramento"
   },
   {
-    "objectID": "cursos/01_fisica_moderna/professores/vitor_coluci.html",
-    "href": "cursos/01_fisica_moderna/professores/vitor_coluci.html",
-    "title": "Vitor Rafael Coluci",
+    "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_diego_geometria.html",
+    "href": "cursos/01_fisica_moderna/cronograma/aulas/aula_diego_geometria.html",
+    "title": "O mundo da geometria",
     "section": "",
-    "text": "Tem experiência em Simulação Computacional de Materiais. Atua também em Ensino de Física, no desenvolvimento de montagens, demonstrações e animações para facilitar a aprendizagem. Coordena o espaço de Ensino e Aprendizagem ExpLORa da Faculdade de Tecnologia/UNICAMP.\nFormação\nGraduado em Física pela Unicamp\nDoutor em Física pela Unicamp\nAtuação profissional\nProfessor | Unicamp | 2009 - presente"
+    "text": "Noção de espaço e o espaço tridimensional. O conceito de dimensão na física e na matemática. Aspectos históricos da geometria e suas implicações em física, de Euclides a Mandelbrot. Dimensão fractal. Atividade prática sobre a determinação da dimensão de um conjunto de bolas de papel amassado. Breves comentários sobre a relação entre geometria e física moderna."
   },
   {
-    "objectID": "cursos/01_fisica_moderna/professores/varese.html",
-    "href": "cursos/01_fisica_moderna/professores/varese.html",
-    "title": "Varese Salvador Timóteo",
+    "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_maialle.html",
+    "href": "cursos/01_fisica_moderna/cronograma/aulas/aula_maialle.html",
+    "title": "Física Quântica do dia-a-dia",
     "section": "",
-    "text": "Físico Nuclear, dedicou boa parte da carreira desenvolvendo modelos para uma das interações fundamentais da natureza: a força nuclear forte."
-  },
-  {
-    "objectID": "cursos/01_fisica_moderna/professores/avila.html",
-    "href": "cursos/01_fisica_moderna/professores/avila.html",
-    "title": "Luis Fernando De Ávila",
-    "section": "",
-    "text": "Tem experiência"
-  },
-  {
-    "objectID": "cursos/01_fisica_moderna/professores/diego.html",
-    "href": "cursos/01_fisica_moderna/professores/diego.html",
-    "title": "Diego Samuel Rodrigues",
-    "section": "",
-    "text": "Professor universitário de física e de matemática. Formado integralmente pelo ensino público, do ensino fundamental à pós-graduação. Possui interesse e desenvolve pesquisas sobre modelagem matemática aplicada à solução de problemas reais de diversas áreas da ciência e da engenharia. É membro de sociedades científicas do país e do exterior e participa da comunidade internacional https://www.smartphysicslab.org/."
-  },
-  {
-    "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_varese.html",
-    "href": "cursos/01_fisica_moderna/cronograma/aulas/aula_varese.html",
-    "title": "O mundo do muito, muito, muito pequeno",
-    "section": "",
-    "text": "Nessa aula vamos tentar entender do que são feitas as coisas e quais os principais processos responsáveis pelo universo ser como é."
-  },
-  {
-    "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_yuri_luz.html",
-    "href": "cursos/01_fisica_moderna/cronograma/aulas/aula_yuri_luz.html",
-    "title": "Luz Onda e Luz Partícula",
-    "section": "",
-    "text": "A luz é uma onda ou partícula? E se ela fosse os dois? A teoria da luz como onda, defendida por Huygens e confirmada por Young e Maxwell, explica fenômenos como interferência e difração. A teoria da luz como partícula, proposta por Einstein através do efeito fotoelétrico, descreve a luz como fótons, partículas discretas de energia, integrando a dualidade onda-partícula."
+    "text": "Nesta aula, serão exploradas as aplicações mais recentes da Física Quântica em tecnologias como sistemas semicondutores (laser, transistores, LEDs) e computação quântica."
   },
   {
     "objectID": "cursos/01_fisica_moderna/cronograma/aulas/aula_yuri_discreto.html",
